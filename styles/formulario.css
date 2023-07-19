@@ -7,14 +7,14 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    color: var(--laranja)
+    color: var(--amarelo)
 }
 
 .principal__subtitulo {
     font-weight: 700;
     font-size: 17px;
     line-height: 26px;
-    color: var(--azul);
+    color: var(--verde-escuro);
     margin: 3em 0 2em 0;
 }
 
@@ -23,12 +23,12 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: var(--azul);
+    color: var(--verde-escuro);
     margin-left: 1em;
 }
 
 .campo__escrita {
-    border: 1px solid var(--azul);
+    border: 1px solid var(--marrom);
     border-radius: 24px;
     padding: 1em;
     width: 100%;
@@ -44,7 +44,7 @@
 }
 
 .formulario__botao {
-    background: var(--laranja);
+    background-color: var(--amarelo);
     padding: 1em 4em;
     font-weight: 700;
     font-size: 20px;
@@ -52,7 +52,14 @@
     border: none;
     color: var(--branco);
     cursor: pointer;
-    float: right;
+    float: left;
+    margin: 0.5em;
+    transition: 1s;
+}
+
+.formulario__botao:hover {
+    background-color: var(--verde);
+    transition: 1s;
 }
 
 .formulario__erro {
